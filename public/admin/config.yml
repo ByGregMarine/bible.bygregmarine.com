@@ -47,10 +47,10 @@ collections:
                   - { label: Text, name: text, widget: string }
                   - { label: Link, name: link, widget: string }
 
-  - label: MIBbyGM
-    name: mibbook
+  - label: Marine Bible Translation
+    name: mbtbook
     label_singular: 'Book'
-    folder: mib
+    folder: mbt
     format: frontmatter
     create: true
     slug: '{{slug}}'
