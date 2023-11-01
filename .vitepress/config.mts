@@ -6,6 +6,14 @@ export default defineConfig({
   description: "Bible related resources authored by Greg Marine",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
+
+    lastUpdated: {
+      text: 'Last updated'
+    },
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
