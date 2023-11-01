@@ -53,11 +53,12 @@ collections:
     folder: mvb
     format: frontmatter
     create: true
-    slug: '{{slug}}'
+    slug: '{{fields.slug}}'
     editor:
       preview: false
     fields:
       - { label: Title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string }
       - { label: Show Last Updated, name: lastUpdated, widget: boolean, required: false, default: false }
       - { label: Featured Image, name: featuredImage, widget: image, required: false }
       - { label: Body, name: body, widget: markdown }
@@ -68,11 +69,12 @@ collections:
     folder: msb
     format: frontmatter
     create: true
-    slug: '{{slug}}'
+    slug: '{{fields.slug}}'
     editor:
       preview: false
     fields:
       - { label: Title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string }
       - { label: Show Last Updated, name: lastUpdated, widget: boolean, required: false, default: false }
       - { label: Featured Image, name: featuredImage, widget: image, required: false }
       - { label: Body, name: body, widget: markdown }
@@ -83,11 +85,12 @@ collections:
     folder: mcb
     format: frontmatter
     create: true
-    slug: '{{slug}}'
+    slug: '{{fields.slug}}'
     editor:
       preview: false
     fields:
       - { label: Title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string }
       - { label: Show Last Updated, name: lastUpdated, widget: boolean, required: false, default: false }
       - { label: Featured Image, name: featuredImage, widget: image, required: false }
       - { label: Body, name: body, widget: markdown }
