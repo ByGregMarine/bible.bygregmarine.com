@@ -49,7 +49,7 @@ collections:
 
   - label: Marine Version of the Bible
     name: mvbbook
-    label_singular: 'Version Book'
+    label_singular: 'Version Chapter'
     folder: mvb
     format: frontmatter
     create: true
@@ -64,7 +64,7 @@ collections:
 
   - label: Marine Story Bible
     name: msbbook
-    label_singular: 'Story Book'
+    label_singular: 'Story Chapter'
     folder: msb
     format: frontmatter
     create: true
@@ -79,7 +79,7 @@ collections:
 
   - label: Marine Commentary of the Bible
     name: mcbbook
-    label_singular: 'Commentary Book'
+    label_singular: 'Commentary Chapter'
     folder: mcb
     format: frontmatter
     create: true
