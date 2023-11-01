@@ -2,6 +2,9 @@
 title: Marine Version of the Bible
 slug: index
 lastUpdated: true
+next:
+  text: 'Genesis'
+  link: '/mvb/01gen00'
 ---
 # Marine Version of the Bible
 
