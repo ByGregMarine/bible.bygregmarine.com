@@ -16,21 +16,20 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Marine Version of the Bible', link: '/mvb' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Bibles',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Marine Version of the Bible', link: '/mvb' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/ByGregMarine/bible.bygregmarine.com' }
     ]
   }
 })

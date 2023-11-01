@@ -8,18 +8,18 @@ hero:
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Marine Version of the Bible
+      link: /mvb
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Marine Commentary of the Bible
+      link: /mcb
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Marine Version of the Bible
+    details: A faith exercise for better understanding
+  - title: Marine Commentary of the Bible
+    details: Thoughts and notes about the Bible
+  - title: Marine Story Bible
+    details: A telling of the Bible in storybook form
 ---
 
