@@ -16,14 +16,14 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Marine Version of the Bible', link: '/mvb' }
+      { text: 'His Story Bible', link: '/hsb' }
     ],
 
     sidebar: [
       {
         text: 'Bibles',
         items: [
-          { text: 'Marine Version of the Bible', link: '/mvb' }
+          { text: 'His Story Bible', link: '/hsb' }
         ]
       }
     ],

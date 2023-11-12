@@ -47,26 +47,10 @@ collections:
                   - { label: Text, name: text, widget: string }
                   - { label: Link, name: link, widget: string }
 
-  - label: Marine Version of the Bible
-    name: mvbbook
+  - label: His Story Bible
+    name: hsbbook
     label_singular: 'Version Chapter'
-    folder: mvb
-    format: frontmatter
-    create: true
-    slug: '{{fields.slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: Title, name: title, widget: string }
-      - { label: Slug, name: slug, widget: string }
-      - { label: Show Last Updated, name: lastUpdated, widget: boolean, required: false, default: false }
-      - { label: Featured Image, name: featuredImage, widget: image, required: false }
-      - { label: Body, name: body, widget: markdown }
-
-  - label: Marine Story Bible
-    name: msbbook
-    label_singular: 'Story Chapter'
-    folder: msb
+    folder: hsb
     format: frontmatter
     create: true
     slug: '{{fields.slug}}'

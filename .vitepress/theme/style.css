@@ -141,3 +141,12 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+.red-letters {
+  color: red;
+}
+
+@media (prefers-color-scheme: dark) {
+  .red-letters {
+    color: maroon;
+  }
+}
